@@ -96,6 +96,8 @@ Js.log(int_of_string(k) + 8);
 
 let l: string = "3.1415";
 Js.log(float_of_string(l) +. 5.0);
+let l = float_of_string("0");
+Js.log(string_of_float(l));
 
 /* 
 String Interpolation
